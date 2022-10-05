@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mont';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    text-align: center;
+    margin: 78px auto;
+}
+
+.wrap1 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 74.9%;
+}
+
+.pd {
+    border: 1px solid black;
+    padding: 11px 30px 11px 41px;
+    height: 50px;
+}
+
+.chay {
+    height: 404px;
+}
+
+.wrap-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}
+
+.nazvaie {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.box2 {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    position: relative;
+}
+
+.cena {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    margin: 47px auto;
+}
+
+.kvad {
+    width: 12px;
+    height: 12px;
+}
+
+.one { 
+    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+}
+
+.two {
+    background: #031412;
+}
+
+.katal {
+    width: 327px;
+    height: 50px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 42px auto;
+}
+
+.katal p {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* 2 */
+
+.container2 {
+    background-color: #f1f7f7;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}
+
+.sale {
+    text-decoration: line-through;
+    position: absolute;
+    right: 0;
+    top: -15px;
+    color: #031412;
+    opacity: 0.3;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.dopBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84px;
+    height: 36px;
+    background: #9B0000;
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.box {
+    position: relative;
+}
+
+.saleBaner {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+/* 3 */
+
+.container3 {
+    text-align: center;
+    margin: 78px auto;
+}
+
+.el {
+    width: 446px;
+    height: 332px;
+    padding: 20px 40px 18px 30px;
+    text-align: start;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    width: 1430px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 13px;
+}
+
+.text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.date {
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* 4 */
+
+.container4 {
+    text-align: center;
+    background-color: #f1f7f7;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+
+.wrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    width: 1430px;
+    margin: 49px auto;
+}
+
+.bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 76px;
+    background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
+}
+
+.nowrap {
+    width: 320px;
+    height: 225px;
+    text-align: start;
+}
+
+.argument {
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.next {
+    font-weight: 800;
+    font-size: 14px;
+    color: #CB8D62;
+    display: block;
+    margin-top: 18px;
+}
+
+/* footer */
+
+footer {
+    background-image: url(./img/bgfoot.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 375px;
+    display: flex;
+    padding-left: 260px;
+    padding-right: 350px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.left p {
+    font-weight: 400;
+    font-size: 14px;    
+    color: rgba(173, 173, 173, .4);
+    margin-top: 24px;
+}
+
+.left a {
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+    margin-top: 24px;
+    display: block;
+}
+
+.right {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexForImg {
+    display: flex;
+    justify-content: space-between;
+    width: 91px;
+    margin-top: 10px;
+}
+
+.right h2 {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.right p {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+    margin-top: 10px;
+}
+
+.katal2 {
+    padding-left: 20px;
+    position: absolute;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    transform: rotate(90deg);
+    width: 176px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    right: 20px;
+    bottom: 0;
+}
